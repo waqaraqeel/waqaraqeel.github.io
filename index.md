@@ -9,9 +9,7 @@ image:
 
 I am a PhD student in the Department of Computer Science at Duke University. I joined Duke in Fall’17.
 
-My research interests include Internet architecture and measurement, and content caches.
-
-I am advised by Dr. Bruce Maggs.
+I am advised by Dr. Bruce Maggs. I am associated with The Internet at the Speed of Light where I work on future Internet architectures and measurement. My interests also include content caches and online advertising.
 
 <br/>
 
