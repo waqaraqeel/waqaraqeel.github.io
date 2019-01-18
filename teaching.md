@@ -12,8 +12,8 @@ I have taught the following courses as a Teaching Assistant with one lecture a w
 1. CPS 310 Operating Systems, **Duke University**, _Spring 2018_
 2. CPS 310 Operating Systems, **Duke University**, _Fall 2018_
 
-  
-
+<br/>
+<br/>
 I have taught the following courses as a private tutor:
 
 1. CPS 101 Introduction to Computer Science, **Duke University**, _Fall 2018_
