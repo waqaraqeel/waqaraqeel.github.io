@@ -8,6 +8,7 @@ image:
 ---
 
 I am currently visiting MIT CSAIL in Prof. Dina Katabi's lab.
+<br/>
 
 I am a PhD student in the Department of Computer Science at Duke University,
 where I am advised by Prof. Bruce Maggs as part of The Internet at the Speed of
