@@ -91,9 +91,6 @@ div.github-button {
     margin: 1rem;
 }
 
-div.noshow {
-    display: none;
-}
 p.title {
     color: #37A254;
     font-size: 1.1em;
@@ -138,4 +135,8 @@ hr {
 .article-author-side i {
     color: white !important;
     text-decoration: none;
+}
+pre {
+    overflow: auto;
+    white-space: pre;
 }
