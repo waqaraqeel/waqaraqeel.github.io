@@ -16,7 +16,7 @@ body {
     padding-bottom: 60px;
     background-color: #1a1a1a;
     color: #EFFFE9;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Courier New', monospace; 
 }
 html {
     scroll-behavior: smooth
@@ -123,7 +123,7 @@ div.pub_item {
     margin-top: 35px;
 }
 .bio-photo{
-    margin-top: 38px;
+    margin-top: 35px;
     max-width: 100%;
 }
 .article-author-side {
@@ -132,7 +132,6 @@ div.pub_item {
 }
 .article-author-side a {
     color: #2b90d9;
-    font-family: "Roboto Mono", monospace;
     text-decoration: underline;
     margin-bottom: 15px;
 }
@@ -150,7 +149,4 @@ hr {
 h3 {
     color: #EFFFE9;
     font-weight: bold;
-}
-.row {
-    margin-right: 0px;
 }
