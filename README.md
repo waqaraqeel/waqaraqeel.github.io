@@ -1,2 +1,1 @@
-# Waqar Aqeel's site
-This site is forked from **[Jordi Pont-Tuset](http://jponttuset.cat)**'s site at **[`https://github.com/jponttuset/jponttuset.github.io`](https://github.com/jponttuset/jponttuset.github.io)** with permission.
+Simple personal website.
