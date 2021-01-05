@@ -8,105 +8,8 @@
     <meta property="og:description" content="Personal academic website" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <style>
-        body {
-            padding-bottom: 60px;
-            background-color: #1a1a1a;
-            color: #EFFFE9;
-            font-family: 'Courier New', monospace; 
-            line-height: 1.5;
-        }
-
-        p, button, .btn, li {
-            font-size: 0.95em;
-        }
-
-        p.title {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        p.authors, p.venue, p.award {
-            font-size: 1.0em;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        p.authors {
-            color: #EFFFE9;
-        }
-        p.authors a {
-            color: #EFFFE9;
-        }
-        p.venue {
-            color: #fcbe32;
-        }
-        p.award {
-            color: #ff5f2e;
-        }
-        a.p_button {
-            color: #2b90d9;
-            text-decoration: underline;
-            font-family: "Roboto Mono", monospace;
-        }
-        div.pub_item {
-            margin-top: 35px;
-        }
-        .bio-photo{
-            margin-top: 35px;
-            max-width: 100%;
-        }
-        .article-author-side {
-            font-weight: 300;
-        }
-        .article-author-side a {
-            color: #2b90d9;
-            text-decoration: underline;
-            margin-bottom: 15px;
-        }
-        pre {
-            white-space: pre-wrap;
-        }
-        h3 {
-            font-size: 1.75rem;
-            margin: 0;
-            margin-bottom: 0.3rem;
-        }
-        .duke-logo {
-            max-width: 100%;
-            width: 200px;
-        }
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            max-width: 1140px;
-            margin-right:auto;
-            margin-left:auto;
-        }
-        .navigation-menu {
-            grid-column: span 4;
-            padding: 0.5rem;
-            max-width: 300px;
-            margin-right:auto;
-            margin-left:auto;
-        }
-        .main-content {
-            grid-column: span 8;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-        @media screen and (max-width: 480px) {
-            .navigation-menu {
-                text-align: center;
-                grid-column: span 12;
-            }
-            .main-content {
-                grid-column: span 12;
-            }
-        }
-        </style>
     <title>Waqar Aqeel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body data-spy="scroll" data-target="#mynavbar">
@@ -150,7 +53,28 @@
                 </div>
             </div>
             <div class="main-content">
-
+                <div class="pub_item">
+                    <p class="title">Puncturable Pseudorandom Sets and Private Information Retrievalwith Polylogarithmic Bandwidth and Sublinear Time</p>
+                    <p class="venue">(Cryptology ePrint), 2020</p>
+                    <p class="authors">Elaine Shi, Waqar Aqeel, Balakrishnan Chandrasekaran, Bruce Maggs</p>
+                    <a class="p_button" href="javascript:toggleBibtex('shi_crypto_2020')">[BibTeX]</a>
+                    <a class="p_button" href="https://waqaraqeel.github.io/assets/pir-open.pdf"
+                        target="_blank">[PDF]</a>
+                    <!-- <a class="p_button" href="https://hispar.cs.duke.edu/" target="_blank">[Project Page]</a> -->
+                    <!-- <a class="p_button" href="https://youtu.be/YHQMVq5REPU" target="_blank">[Video]</a> -->
+                    <!-- <p class="award">Community Contribution Award!</p> -->
+                    <div id="bib_shi_crypto_2020" style="display: none;">
+                        <pre>
+@misc{cryptoeprint:2020:1592,
+    author = {Elaine Shi and Waqar Aqeel and Balakrishnan Chandrasekaran and Bruce Maggs},
+    title = {Puncturable Pseudorandom Sets and Private Information Retrieval with Polylogarithmic Bandwidth and Sublinear Time},
+    howpublished = {Cryptology ePrint Archive, Report 2020/1592},
+    year = {2020},
+    note = {\url{https://eprint.iacr.org/2020/1592}},
+}
+                        </pre>
+                    </div>
+                </div>
                 <div class="pub_item">
                     <p class="title">On Landing and Internal Pages: The Strange Case of Jekyll and Hyde in Internet
                         Measurement</p>
@@ -270,29 +194,6 @@
                 </div>
 
                 <div class="pub_item">
-                    <p class="title">Benchmarking Expert Surgeons' Path for Evaluating a Trainee Surgeon's Performance
-                    </p>
-                    <p class="venue">SIGGRAPH Virtual-Reality Continuum and Its Applications in Industry (VRCAI), 2013
-                    </p>
-                    <p class="authors">M. Anas Ahmad, Shamyl B. Mansoor, Zohaib Khan, Waqar Aqeel, and Shahroze Kabir
-                    </p>
-                    <a class="p_button" href="javascript:toggleBibtex('Ahmad2013')">[BibTeX]</a>
-                    <a class="p_button" href="https://waqaraqeel.github.io/assets/p57-ahmad.pdf"
-                        target="_blank">[PDF]</a>
-                    <div id="bib_Ahmad2013" style="display: none;">
-                        <pre>
-@inproceedings{Ahmad2013
-    author = {Ahmad, Malik Anas and Mansoor, Shamyl Bin and Khan, Zohaib Amjad and Aqeel, Waqar Ahmad and Kabir, Shahroze Humayun},
-    title = {Benchmarking Expert Surgeons' Path for Evaluating a Trainee Surgeon's Performance},
-    booktitle = {Proceedings of the 12th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and Its Applications in Industry},
-    series = {VRCAI '13},
-    year = {2013},
-}
-                        </pre>
-                    </div>
-                </div>
-
-                <div class="pub_item">
                     <p class="title">cISP: A Speed-of-Light Internet Service Provider</p>
                     <p class="venue">(arXiv), 2018</p>
                     <p class="authors">Debopam Bhattacherjee, Sangeetha Abdu Jyothi, Ilker Nadi Bozkurt, Muhammad
@@ -327,6 +228,28 @@
     Title = {Dissecting Latency in the Internet's Fiber Infrastructure},
     Year = {2018},
     Eprint = {arXiv:1811.10737},
+}
+                        </pre>
+                    </div>
+                </div>
+                <div class="pub_item">
+                    <p class="title">Benchmarking Expert Surgeons' Path for Evaluating a Trainee Surgeon's Performance
+                    </p>
+                    <p class="venue">SIGGRAPH Virtual-Reality Continuum and Its Applications in Industry (VRCAI), 2013
+                    </p>
+                    <p class="authors">M. Anas Ahmad, Shamyl B. Mansoor, Zohaib Khan, Waqar Aqeel, and Shahroze Kabir
+                    </p>
+                    <a class="p_button" href="javascript:toggleBibtex('Ahmad2013')">[BibTeX]</a>
+                    <a class="p_button" href="https://waqaraqeel.github.io/assets/p57-ahmad.pdf"
+                        target="_blank">[PDF]</a>
+                    <div id="bib_Ahmad2013" style="display: none;">
+                        <pre>
+@inproceedings{Ahmad2013
+    author = {Ahmad, Malik Anas and Mansoor, Shamyl Bin and Khan, Zohaib Amjad and Aqeel, Waqar Ahmad and Kabir, Shahroze Humayun},
+    title = {Benchmarking Expert Surgeons' Path for Evaluating a Trainee Surgeon's Performance},
+    booktitle = {Proceedings of the 12th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and Its Applications in Industry},
+    series = {VRCAI '13},
+    year = {2013},
 }
                         </pre>
                     </div>
