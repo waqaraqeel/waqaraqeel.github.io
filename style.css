@@ -1,8 +1,16 @@
- body {
+@font-face {
+    font-family: SF-Pro-Light;
+    src: url(fonts/SF-Pro-Light.otf);
+}
+@font-face {
+    font-family: SF-Pro-Regular;
+    src: url(fonts/SF-Pro-Regular.otf);
+}
+body {
     padding-bottom: 60px;
-    background-color: #1a1a1a;
-    color: #EFFFE9;
-    font-family: 'Courier New', monospace; 
+    background-color: #fbfbfd;
+    color: #1d1d1f;
+    font-family: "SF-Pro-Regular", 'Courier New', monospace; 
     line-height: 1.5;
 }
 
@@ -10,33 +18,34 @@ p, button, .btn, li {
     font-size: 0.95em;
 }
 
-p.title {
-    font-size: 1.2em;
-    font-weight: bold;
+.title {
+    font-size: 1.5em;
+    /* font-weight: bold; */
     margin-top: 0;
     margin-bottom: 0;
 }
-p.authors, p.venue, p.award {
-    font-size: 1.0em;
+.authors, .venue, .award {
+    font-size: 1.2em;
+    font-family: "SF-Pro-Light", 'Courier New', monospace; 
     margin-top: 0;
     margin-bottom: 0;
 }
 p.authors {
-    color: #EFFFE9;
+    color: #1d1d1f;
 }
 p.authors a {
-    color: #EFFFE9;
+    color: #1d1d1f;
 }
 p.venue {
-    color: #fcbe32;
+    color: #eca500;
 }
 p.award {
-    color: #ff5f2e;
+    color: #dd3400;
 }
-a.p_button {
-    color: #2b90d9;
+.p_button {
+    color: #06c;
     text-decoration: underline;
-    font-family: "Roboto Mono", monospace;
+    font-family: "SF-Pro-Light", 'Courier New', monospace; 
 }
 div.pub_item {
     margin-top: 35px;
@@ -50,16 +59,11 @@ div.pub_item {
     text-align: center;
     font-weight: 300;
 }
-.article-author-side a {
-    color: #2b90d9;
-    text-decoration: underline;
-    margin-bottom: 15px;
-}
 pre {
     white-space: pre-wrap;
 }
 h3 {
-    font-size: 1.75rem;
+    font-size: 2.3rem;
     margin: 0;
     margin-bottom: 0.3rem;
 }
@@ -71,7 +75,7 @@ h3 {
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    max-width: 1140px;
+    max-width: 1440px;
     margin-right:auto;
     margin-left:auto;
 }
