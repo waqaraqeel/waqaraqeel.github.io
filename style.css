@@ -67,9 +67,15 @@ h3 {
     margin: 0;
     margin-bottom: 0.3rem;
 }
-.duke-logo {
+
+.google-logo {
     max-width: 100%;
     width: 200px;
+}
+
+.duke-logo {
+    max-width: 100%;
+    width: 140px;
 }
 
 .container {
