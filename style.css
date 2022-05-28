@@ -73,11 +73,6 @@ h3 {
     width: 200px;
 }
 
-.duke-logo {
-    max-width: 100%;
-    width: 140px;
-}
-
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
