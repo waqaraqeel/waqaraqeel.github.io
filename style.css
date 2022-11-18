@@ -19,33 +19,33 @@ p, button, .btn, li {
 }
 
 .title {
-    font-size: 1.5em;
-    /* font-weight: bold; */
+    font-size: 1.4em;
     margin-top: 0;
     margin-bottom: 0;
 }
 .authors, .venue, .award {
     font-size: 1.2em;
-    font-family: "SF-Pro-Light", 'Courier New', monospace; 
+    font-family: "SF-Pro-Regular", 'Courier New', monospace; 
     margin-top: 0;
     margin-bottom: 0;
 }
 p.authors {
+    font-size: 1.1em;
     color: #1d1d1f;
 }
 p.authors a {
     color: #1d1d1f;
 }
 p.venue {
-    color: #eca500;
+    color: #35a952;
 }
 p.award {
-    color: #dd3400;
+    color: #e94434;
 }
 .p_button {
-    color: #06c;
+    color: #4285f4;
     text-decoration: underline;
-    font-family: "SF-Pro-Light", 'Courier New', monospace; 
+    font-family: "SF-Pro-Regular", 'Courier New', monospace; 
 }
 div.pub_item {
     margin-top: 35px;
@@ -81,14 +81,14 @@ h3 {
     margin-left:auto;
 }
 .navigation-menu {
-    grid-column: span 4;
+    grid-column: span 3;
     padding: 0.5rem;
     max-width: 300px;
     margin-right:auto;
     margin-left:auto;
 }
 .main-content {
-    grid-column: span 7;
+    grid-column: span 8;
     padding-left: 15px;
     padding-right: 15px;
 }
