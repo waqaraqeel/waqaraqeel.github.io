@@ -77,23 +77,24 @@ h3 {
     margin-left:auto;
 }
 .navigation-menu {
-    grid-column: span 3;
+    grid-column: span 4;
     padding: 0.5rem;
     max-width: 300px;
     margin-right:auto;
     margin-left:auto;
 }
 .main-content {
-    grid-column: span 8;
+    grid-column: span 6;
     padding-left: 15px;
     padding-right: 15px;
 }
 @media screen and (max-width: 480px) {
     .navigation-menu {
         text-align: center;
-        grid-column: span 11;
+        grid-column: span 12;
     }
     .main-content {
-        grid-column: span 11;
+        text-align: center;
+        grid-column: span 12;
     }
 }
