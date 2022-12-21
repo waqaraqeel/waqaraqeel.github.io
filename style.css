@@ -1,12 +1,15 @@
 @font-face {
-    font-family: SF-Pro-Regular;
-    src: url(fonts/SF-Pro-Regular.otf);
+    font-family: Irvin-Heading;
+    src: url(fonts/Irvin-Heading.ttf);
+}
+@font-face {
+    font-family: Caslon-Pro;
+    src: url(fonts/Caslon-Pro.ttf);
 }
 body {
     padding-bottom: 60px;
-    background-color: #fbfbfd;
-    color: #1d1d1f;
-    font-family: "SF-Pro-Regular", 'Courier New', monospace; 
+    color: #000;
+    font-family: Caslon-Pro, 'Courier New', monospace; 
     line-height: 1.5;
 }
 
@@ -15,22 +18,23 @@ p, button, .btn, li {
 }
 
 .title {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: Irvin-Heading, 'Courier New', monospace;
 }
 .authors, .venue, .award {
     font-size: 1.2em;
-    font-family: "SF-Pro-Regular", 'Courier New', monospace; 
+    font-family: Caslon-Pro, 'Courier New', monospace; 
     margin-top: 0;
     margin-bottom: 0;
 }
 p.authors {
     font-size: 1.1em;
-    color: #1d1d1f;
+    color: #000;
 }
 p.authors a {
-    color: #1d1d1f;
+    color: #000;
 }
 p.venue {
     color: #35a952;
@@ -41,7 +45,7 @@ p.award {
 .p_button {
     color: #4285f4;
     text-decoration: underline;
-    font-family: "SF-Pro-Regular", 'Courier New', monospace; 
+    font-family: Caslon-Pro, 'Courier New', monospace; 
 }
 div.pub_item {
     margin-top: 35px;
@@ -59,9 +63,10 @@ pre {
     white-space: pre-wrap;
 }
 h3 {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     margin: 0;
     margin-bottom: 0.3rem;
+    font-family: Irvin-Heading, 'Courier New', monospace;
 }
 
 .google-logo {
@@ -75,6 +80,7 @@ h3 {
     max-width: 1440px;
     margin-right:auto;
     margin-left:auto;
+    text-align: center;
 }
 .navigation-menu {
     grid-column: span 4;
