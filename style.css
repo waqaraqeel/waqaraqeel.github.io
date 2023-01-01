@@ -64,14 +64,15 @@ pre {
 }
 h3 {
     font-size: 1.5rem;
+    font-weight: 100;
     margin: 0;
     margin-bottom: 0.3rem;
     font-family: Irvin-Heading, 'Courier New', monospace;
 }
 
 .google-logo {
-    max-width: 100%;
-    width: 200px;
+    max-width: 60%;
+    width: 150px;
 }
 
 .container {
