@@ -13,15 +13,10 @@ body {
     line-height: 1.5;
 }
 
-p, button, .btn, li {
-    font-size: 0.95em;
-}
-
 .title {
-    font-size: 1.1em;
+    font-size: 1.4em;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Irvin-Heading, 'Courier New', monospace;
 }
 .authors, .venue, .award {
     font-size: 1.0em;
@@ -30,7 +25,6 @@ p, button, .btn, li {
     margin-bottom: 0;
 }
 p.authors {
-    font-size: 1.0em;
     color: #000;
 }
 p.authors a {
@@ -51,9 +45,12 @@ div.pub_item {
     margin-top: 35px;
 }
 .bio-photo{
-    border-radius: 5%;
     margin-top: 35px;
-    max-width: 85%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    width: 225px;
+    height: 250px;
+    border-radius: 10px;
 }
 .article-author-side {
     text-align: center;
@@ -63,11 +60,10 @@ pre {
     white-space: pre-wrap;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 100;
     margin: 0;
     margin-bottom: 0.3rem;
-    font-family: Irvin-Heading, 'Courier New', monospace;
 }
 
 .google-logo {
