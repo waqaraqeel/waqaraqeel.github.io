@@ -14,7 +14,7 @@ body {
 }
 
 .title {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -42,7 +42,7 @@ p.award {
     font-family: Caslon-Pro, 'Courier New', monospace; 
 }
 div.pub_item {
-    margin-top: 35px;
+    margin-bottom: 30px;
 }
 .bio-photo{
     margin-top: 35px;
@@ -60,27 +60,25 @@ h3 {
     font-size: 1.7rem;
     font-weight: 100;
     margin: 0;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
 }
 
 .google-logo {
-    max-width: 55%;
-    width: 140px;
+    max-width: 45%;
+    width: 120px;
+    margin-bottom: 20px;
 }
 
 .nyu-logo {
-    max-width: 75%;
-    width: 200px;
+    max-width: 85%;
+    width: 240px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-areas: ". . sd . main main main main main . .";
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-areas: ". . sd . main main main main main main main main . . .";
     max-width: 1440px;
-    margin-right:auto;
-    margin-left:auto;
-    text-align: center;
 }
 .navigation-menu {
     grid-area: sd;
@@ -93,6 +91,7 @@ h3 {
     grid-area: main;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 35px;
 }
 .bibtex {
     text-align: left;
