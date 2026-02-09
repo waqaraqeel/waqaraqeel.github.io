@@ -46,6 +46,10 @@ p.award {
     color: #e94434;
 }
 
+a {
+    color: #4285f4;
+}
+
 .p_button {
     color: #4285f4;
     text-decoration: underline;
